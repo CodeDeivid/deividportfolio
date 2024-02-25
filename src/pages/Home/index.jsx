@@ -34,16 +34,16 @@ function Home() {
             className="cv-button flex items-center rounded-xl bg-white text-zinc-950 border-[1px] border-zinc-700 p-3 w-full max-w-[160px] hover:bg-transparent hover:text-white transition-all justify-between font-semibold duration-700 gap-1 group/edit"
           >
             <img
-              src="./src/assets/cv.png"
+              src="/assets/cv.png"
               className="w-4 transition-all duration-700 group/edit"
             />
             Curriculo
             <img
-              src="./src/assets/arrow.png"
+              src="/assets/arrow.png"
               className="brightness-0 w-3 transition-all duration-700 group/edit"
             />
             <img
-              src="./src/assets/download.png"
+              src="/assets/download.png"
               className="w-4 transition-all invert hidden duration-700 group/edit"
             />
           </a>
@@ -53,17 +53,17 @@ function Home() {
             id="email-button"
           >
             <img
-              src="./src/assets/email.png"
+              src="/assets/email.png"
               id="email-icon"
               className="w-4 transition-all invert-0 duration-700 group/edit"
             />
             Email
             <img
-              src="./src/assets/arrow.png"
+              src="/assets/arrow.png"
               className="brightness-100 w-3 transition-all duration-700 group/edit"
             />
             <img
-              src="./src/assets/a.png"
+              src="/assets/a.png"
               className="w-4 transition-all invert hidden duration-700 group/edit"
             />
           </a>
@@ -79,11 +79,11 @@ function Home() {
           >
             Ver todos
             <img
-              src="./src/assets/arrow.png"
+              src="/assets/arrow.png"
               className="brightness-100 w-3 transition-all duration-700 group/edit"
             />
             <img
-              src="./src/assets/arrow-2.png"
+              src="/assets/arrow-2.png"
               className="w-4 transition-all invert hidden duration-700 group/edit"
             />
           </a>
@@ -91,21 +91,21 @@ function Home() {
 
         <div className="grid grid-cols-1 xl:grid-cols-2 gap-3">
           <Cardproject
-            src="./src/assets/project-1.webp"
+            src="/assets/project-1.webp"
             title="Andreza Biquinis - Voluntário"
             desc="Loja virtual online para a venda de biquinis."
             github="https://github.com/CodeDeivid"
             details=""
           />
           <Cardproject
-            src="./src/assets/project-1.webp"
+            src="/assets/project-1.webp"
             title="Andreza Biquinis - Voluntário"
             desc="Loja virtual online para a venda de biquinis."
             github="https://github.com/CodeDeivid"
             details=""
           />
           <Cardproject
-            src="./src/assets/project-1.webp"
+            src="/assets/project-1.webp"
             title="Andreza Biquinis - Voluntário"
             desc="Loja virtual online para a venda de biquinis."
             github="https://github.com/CodeDeivid"

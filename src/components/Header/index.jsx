@@ -77,11 +77,11 @@ function Header() {
           } -right-3 top-16 p-2 items-center justify-center hover:rounded-lg hover:border-zinc-700 transition-all duration-75`}
           onClick={() => setOpen(!open)}
         >
-          <img src="./src/assets/arrow.png" className="w-3" />
+          <img src="/assets/arrow.png" className="w-3" />
         </div>
         <div className="flex gap-x-2 items-center">
           <img
-            src="./src/assets/logo.png"
+            src="/assets/logo.png"
             className={`cursor-pointer duration-500 rounded-full w-12 h-12 object-cover`}
           />
           <h1
@@ -111,7 +111,7 @@ function Header() {
                   } rounded-xl hover:text-white ${menu.gap ? "mt-9" : "mt-2"}`}
                 >
                   <div className="flex items-center justify-center gap-2">
-                    <img src={`./src/assets/${menu.src}.png`} className="w-5" />
+                    <img src={`/assets/${menu.src}.png`} className="w-5" />
                     <span
                       className={`${
                         !open && "hidden"
@@ -121,7 +121,7 @@ function Header() {
                     </span>
                   </div>
                   <img
-                    src={`./src/assets/${menu.link ? "link" : "ball"}.png`}
+                    src={`/assets/${menu.link ? "link" : "ball"}.png`}
                     className={`${!open && "hidden"} w-4 animate-pulse`}
                   />
                 </li>
@@ -135,7 +135,7 @@ function Header() {
               } rounded-md hover:text-white`}
             >
               <div className="flex items-center justify-center gap-2">
-                <img src="./src/assets/email.png" className="w-5" />
+                <img src="/assets/email.png" className="w-5" />
                 <span
                   className={`${
                     !open && "hidden"
@@ -145,7 +145,7 @@ function Header() {
                 </span>
               </div>
               <img
-                src="./src/assets/link.png"
+                src="/assets/link.png"
                 className={`${!open && "hidden"} w-4`}
               />
             </li>

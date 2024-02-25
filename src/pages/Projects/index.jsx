@@ -36,21 +36,21 @@ function Projects() {
           </h1>
           <div className="grid grid-cols-1 xl:grid-cols-2 gap-3">
             <Cardproject
-              src="./src/assets/project-1.webp"
+              src="/assets/project-1.webp"
               title="Andreza Biquinis - Voluntário"
               desc="Loja virtual online para a venda de biquinis."
               github="https://github.com/CodeDeivid"
               details=""
             />
             <Cardproject
-              src="./src/assets/project-1.webp"
+              src="/assets/project-1.webp"
               title="Andreza Biquinis - Voluntário"
               desc="Loja virtual online para a venda de biquinis."
               github="https://github.com/CodeDeivid"
               details=""
             />
             <Cardproject
-              src="./src/assets/project-1.webp"
+              src="/assets/project-1.webp"
               title="Andreza Biquinis - Voluntário"
               desc="Loja virtual online para a venda de biquinis."
               github="https://github.com/CodeDeivid"

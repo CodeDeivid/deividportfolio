@@ -17,7 +17,7 @@ function Cardproject(props) {
           </a>
           <a href={`${props.github}`} target="_blank" className="flex flex-row-reverse items-center rounded-xl bg-zinc-500 border-[1px] border-zinc-700 p-3 gap-2 w-full hover:brightness-150 transition-all justify-center duration-300 group/edit" id="email-button">
             GitHub
-            <img src="./src/assets/github-2.png" alt="GitHub icon" className="brightness-100 w-3 transition-all duration-700 group/edit"/>
+            <img src="/assets/github-2.png" alt="GitHub icon" className="brightness-100 w-3 transition-all duration-700 group/edit"/>
           </a>
         </div>
       </div>

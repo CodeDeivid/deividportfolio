@@ -19,7 +19,7 @@ function About() {
 
   const listCards = skillsCards.map((c, i) => (
     <div key={i} className="skillCard rounded-sm flex items-center p-5 text-lg gap-3 bg-zinc-900 glow:bg-zinc-800/70 glow:border-neutral-100 border-[1px] border-transparent hover:scale-[1.005]">
-      <img src={`./src/assets/${c.src}.png`} className="w-10" />
+      <img src={`/assets/${c.src}.png`} className="w-10" />
       <h3 className="text-xl">{c.title}</h3>
     </div>
   ))
@@ -38,7 +38,7 @@ function About() {
             </h2>
           </div>
           <img
-            src="./src/assets/me.png"
+            src="/assets/me.png"
             className="w-1/5 xl:w-1/6 2xl:w-1/12 sm:flex"
           />
         </div>

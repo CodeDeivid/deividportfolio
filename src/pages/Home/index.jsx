@@ -2,6 +2,7 @@ import "./styles.css";
 import { useEffect } from "react";
 import Header from "../../components/Header";
 import Cardproject from "../../components/Cardproject";
+import { Link } from "react-router-dom";
 
 function Home() {
   useEffect(() => {
@@ -73,8 +74,8 @@ function Home() {
           <h1 className="font-semibold text-2xl sm:text-3xl undefined">
             Últimos projetos
           </h1>
-          <a
-            href="/projects"
+          <Link
+            to="/projects"
             className="see-all flex items-center rounded-lg bg-darkBg border-[1px] border-darkBorder px-2 py-1 sm:px-5 sm:py-1 w-fit gap-1 sm:gap-2 hover:brightness-150 transition-all justify-between duration-300 group/edit"
           >
             Ver todos
@@ -86,7 +87,7 @@ function Home() {
               src="/assets/arrow-2.png"
               className="w-4 transition-all invert hidden duration-700 group/edit"
             />
-          </a>
+          </Link>
         </div>
 
         <div className="grid grid-cols-1 xl:grid-cols-2 gap-3">

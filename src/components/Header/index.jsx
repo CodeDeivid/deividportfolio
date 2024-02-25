@@ -14,7 +14,7 @@ function Header() {
       { title: "Formação ", src: "formation", id: 4, route: "Formation" },
       { title: "Github", src: "github", gap: true, link: true },
       { title: "Linkedin", src: "linkedin", link: true },
-      { title: "Whatsapp ", src: "Whatsapp", link: true },
+      { title: "Whatsapp ", src: "whatsapp", link: true },
       { title: "Discord ", src: "discord", link: true },
     ],
   });

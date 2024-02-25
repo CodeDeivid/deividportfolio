@@ -29,7 +29,7 @@ function Home() {
 
         <div className="flex gap-2 mt-4 mb-16">
           <a
-            href="./public/cv.pdf"
+            href="/cv.pdf"
             target="_blank"
             className="cv-button flex items-center rounded-xl bg-white text-zinc-950 border-[1px] border-zinc-700 p-3 w-full max-w-[160px] hover:bg-transparent hover:text-white transition-all justify-between font-semibold duration-700 gap-1 group/edit"
           >

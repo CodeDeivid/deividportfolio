@@ -111,7 +111,7 @@ function Header() {
                   } rounded-xl hover:text-white ${menu.gap ? "mt-9" : "mt-2"}`}
                 >
                   <div className="flex items-center justify-center gap-2">
-                    <img src={`./src/assets/${menu.src}.png`} className="w-5" />
+                    <img src={`./public/assets/${menu.src}.png`} className="w-5" />
                     <span
                       className={`${
                         !open && "hidden"
@@ -121,7 +121,7 @@ function Header() {
                     </span>
                   </div>
                   <img
-                    src={`./src/assets/${menu.link ? "link" : "ball"}.png`}
+                    src={`./public/assets/${menu.link ? "link" : "ball"}.png`}
                     className={`${!open && "hidden"} w-4 animate-pulse`}
                   />
                 </li>

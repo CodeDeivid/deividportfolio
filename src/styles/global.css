@@ -36,7 +36,7 @@ body, #root {
 }
 
 .global {
-  background-image: url(./src/assets/stars.jpg);
+  background-image: url(/assets/stars.jpg);
   overflow: auto;
 }
 

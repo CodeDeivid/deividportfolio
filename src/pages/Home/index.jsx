@@ -74,7 +74,7 @@ function Home() {
             Últimos projetos
           </h1>
           <a
-            href="./Projects"
+            href="./src/pages/Projects"
             className="see-all flex items-center rounded-lg bg-darkBg border-[1px] border-darkBorder px-2 py-1 sm:px-5 sm:py-1 w-fit gap-1 sm:gap-2 hover:brightness-150 transition-all justify-between duration-300 group/edit"
           >
             Ver todos

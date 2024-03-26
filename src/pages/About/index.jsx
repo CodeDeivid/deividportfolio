@@ -10,6 +10,8 @@ function About() {
 
   const skillsCards = [
       { title: "React", src: "react"},
+      { title: "Typescript", src: "typescript"},
+      { title: "Next", src: "next"},
       { title: "Tailwind", src: "tailwind"},
       { title: "Javascript", src: "javascript"},
       { title: "Git", src: "git"},
@@ -57,12 +59,12 @@ function About() {
           o objetivo de aperfeiçoar minhas skills como desenvolvedor.
         </p>
 
-        <h2 className="text-3xl mt-16">Ferramentas</h2>
+        <h2 className="text-3xl mt-8">Ferramentas</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 mt-4 flex-col w-full gap-1 sm:text-white glow:border-neutral-100 border-[1px] border-transparent">
           {listCards}
         </div>
 
-        <h2 className="text-3xl mt-16 mb-6">Experiência</h2>
+        <h2 className="text-3xl mt-8 mb-6">Experiência</h2>
         <div className="flex flex-col gap-6">
           <Cardxp date="Set 2023 - Nov 2023" name="Andreza Biquinis" type="Desenvolvedor de Software Voluntário" desc="Responsável por desenvolver um site de gerenciamento de produtos para ser usado como vitrine aos clientes. O site conta com sistema de autenticação, personalização de elementos como contato, email e também a possibilidade de criar, editar e remover produtos e categorias."/>
           <Cardxp date="Set 2023 - Nov 2023" name="Andreza Biquinis" type="Desenvolvedor de Software Voluntário" desc="Responsável por desenvolver um site de gerenciamento de produtos para ser usado como vitrine aos clientes. O site conta com sistema de autenticação, personalização de elementos como contato, email e também a possibilidade de criar, editar e remover produtos e categorias."/>
